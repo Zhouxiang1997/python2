@@ -80,12 +80,12 @@
 # print(type(tupleq))
 # tuplew=tuple(range(10**2))
 # print(tuplew)
-dictA={'pro':'艺术','school':'北京电影学院'}
-dictA.update({'ddd':'20'})
+dictA = {'pro': '艺术', 'school': '北京电影学院'}
+dictA.update({'ddd': '20'})
 print(dictA)
-dictA['name']='李易峰'
-dictA['age']='30'
-dictA['pos']='歌手'
+dictA['name'] = '李易峰'
+dictA['age'] = '30'
+dictA['pos'] = '歌手'
 # print(type(dictA))
 # print(dictA)
 # print(len(dictA))
@@ -98,23 +98,23 @@ dictA['pos']='歌手'
 # for item in dictA.items():
 #     print(item)
 #     print('%s=%s'%(key,value))
-print(sorted(dictA.items(),key=lambda a:a[0]))
-print(sorted(dictA.items(),key=lambda d:d[1]))
+print(sorted(dictA.items(), key=lambda a: a[0]))
+print(sorted(dictA.items(), key=lambda d: d[1]))
 
-listA=list(range(10))
-listB=list(range(10,20))
-print(listA+listB)
-listA=listA*4
+listA = list(range(10))
+listB = list(range(10, 20))
+print(listA + listB)
+listA = listA * 4
 print(listA)
 print(listA.count(3))
 print(22 in listA)
 print(2 in listA)
-steA='入手苦短'
-steB='我用爬虫'
-print(steA*3)
-print(steA+steB)
+steA = '入手苦短'
+steB = '我用爬虫'
+print(steA * 3)
+print(steA + steB)
 print('用' in steA)
 print('入' in steA)
-dictB={'mane':'zx'}
+dictB = {'mane': 'zx'}
 print('name' in dictB)
 print('mane' in dictB)
