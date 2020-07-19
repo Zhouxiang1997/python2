@@ -75,5 +75,3 @@ def sum(a,b):
     pass
 def calcomputer(num):
     result=0
-    发展十分S
-    稍等下
