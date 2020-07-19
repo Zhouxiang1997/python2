@@ -99,6 +99,8 @@ def returnTuple():
 print(type(returnTuple()))
 print('................................')
 
+# ...............................................end.........................................................
+
 
 def function1():
     print('1234567')
@@ -117,3 +119,86 @@ def function2():
 function1()
 print('................................')
 function2()
+
+print('----------俺要做练习了------------')
+
+# ...............................................end.........................................................
+
+
+def getnumber(*args):
+    '''
+    接收n个数字，求这些参数数字的和
+    :param args:
+    :return:
+    '''
+    result = 0
+    for item in args:
+        result += item
+        pass
+    return result
+
+
+zx = getnumber(1, 3, 5, 7, 9, 9)
+print('zx=%d' % zx)
+print('zx={}'.format(zx))
+
+# ...............................................end.........................................................
+
+
+def choose(count):
+    listA = []
+    for item in count:
+        if item % 2 == 1:
+            listA.append(item)
+            pass
+
+        pass
+    return listA
+
+
+b = choose([2, 4, 5, 7, 9, 1, 45, 6, 7, 8, 22])
+print(b)
+c = choose(list(range(10, 30)))
+print(c)
+
+# ...............................................end.........................................................
+
+
+def chooseA(count):
+    E = 1
+    listB = []
+    for ff in count:
+        if E % 2 == 1:
+            listB.append(ff)
+            pass
+        E += 1
+        pass
+    return listB
+
+
+d = chooseA([2, 4, 5, 7, 9, 1, 45, 6, 7, 8, 22])
+print(d)
+# ...............................................end.........................................................
+
+
+def dicFunction(dic):
+    '''
+    处理字典类型的数据
+    :param dic:
+    :return:
+    '''
+    result = {}
+    for key, item in dic.items():
+        if len(item) > 2:
+            result[key] = item[:2]
+            pass
+        else:
+            result[key] = item
+            pass
+        pass
+    return result
+
+
+pass
+dic = {'name': '刘亦菲', 'hobby': ['演戏', '吃饭', '睡觉', '看电影'], 'job': '演员'}
+print(dicFunction(dic))
