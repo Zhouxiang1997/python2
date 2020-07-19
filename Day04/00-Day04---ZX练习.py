@@ -69,9 +69,51 @@
 #     print('默认=%d'%(a+b))
 #     pass
 # sum1(1)
-def sum(a,b):
-    sum=a+b
-    return sum
+# def sum(a,b):
+#     sum=a+b
+#     return sum
+#     pass
+# def calcomputer(num):
+#     lis=[]
+#     result=0
+#     i=1
+#     while i<=num:
+#         result+=i
+#         i+=1
+#         pass
+#     lis.append(result)
+#     return lis
+#
+# va=calcomputer(10)
+# print(va)
+# print(type(va))
+def returnTuple():
+    '''
+    返回元组类型
+    :return:
+    '''
+    # return 1,2,3
+    return {'name': "dd"}
+
+
+print(type(returnTuple()))
+print('................................')
+
+
+def function1():
+    print('1234567')
+    print('33344')
+    print('vvxs2')
     pass
-def calcomputer(num):
-    result=0
+
+
+def function2():
+    print('调用func2')
+    function1()
+    print('fssssssssss')
+    pass
+
+
+function1()
+print('................................')
+function2()
