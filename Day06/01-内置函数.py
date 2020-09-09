@@ -33,8 +33,8 @@ tupList=tuple(li)
 # 字典操作 dict()
 # dic=dict(name='小明',age=18) #创建一个字典
 # # print(type(dic))
-# # # dict['name']='小明'
-# # # dict['age']=18
+# # # dic['name']='小明'
+# # # dic['age']=18
 # # print(dic)
 # bytes转换
 # print(bytes('我喜欢python',encoding='utf-8'))
